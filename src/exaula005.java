@@ -11,12 +11,10 @@ public class exaula005 {
         int hr2= sc.nextInt();
         int diferenca;
 
-         if (hr2>= hr1 ){
+         if (hr1 < hr2 ){
              diferenca = hr2 - hr1;
          }
-          else if (hr1 + hr2 == 0) {
-             diferenca = 24;
-         }
+         
            else{
                diferenca = (24-hr1) +hr2;
          }
